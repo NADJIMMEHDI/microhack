@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Poppins:wght@400;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;    
+}
+
+.LoginPage{
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+}
+
+.LoginPage *{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstLoginSection{
+    color: white;
+    position: relative;
+    background-color: #1E2959;
+    height: 100%;
+}
+
+
+.loginPageText{
+    z-index: 2;
+    margin-top: 20%;
+    font-size: 2.3vw;
+}
+
+.loginBigTitle{
+    font-weight: bold;
+}
+
+.rocketImage{
+    position: absolute;
+    left: 25%;
+    bottom: 7%;
+    z-index: 1;
+    height: 50vh;
+}
+
+.secondLoginSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loginForm{
+    display: flex;
+    align-items: flex-start;
+    width: 30vw;
+    height: fit-content ;
+}
+
+.inputForm{
+    width: 29vw;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0px 1vw 10px;
+    border: 2px solid #D5D5D5 ;
+}   
+.loginForm input:focus{
+    border: 2px solid #D5D5D5 ;
+}
+
+.buttonForm{
+    vertical-align: middle;
+    border: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1E2959;
+    margin: 10px 0px 0px 0px;
+}
+
+
+#logoELetter{
+    font-size: 2.3rem;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-family: 'Allison', cursive;
+    color: #5AE1F8;
+    font-weight: bold;
+}
+
+.khdemLogo{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
